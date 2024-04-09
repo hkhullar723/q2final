@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Register</title>
+<link rel="stylesheet" href="bvc.css">
+
+</head>
+<body>
+   
+    <div id="confirmation">
+      <p id="information"></p>
+      <button id="switch">New Form</button>
+    </div>
+    <form id="form">
+        <h1>Registration Page</h1>
+        <p><label for="id">ID:</label><br>
+        <input type="text" id="id" name="id" placeholder="ID" required><br></p> <br>
+      <p>  <label for="fullName">Full Name:</label><br>
+        <input type="text" id="fullName" name="fullName" placeholder="Full Name" required><br>
+    </p> <br>
+        <p><label for="address">Address:</label><br>
+        <input type="text" id="address" name="address" placeholder="Address" required><br>
+    </p> <br>
+        <p><label for="status">Status:</label><br>
+        <select id="status" name="status" required>
+            <option value="">Select Status</option>
+            <option value="student">Student</option>
+            <option value="staff">Staff</option>
+            <option value="volunteer">Volunteer</option>
+        </select><br>
+    </p> <br> <br><br><br><br>
+        <p id="submit"><input type="submit" value="Submit">
+        </p>
+        </form>
+    <script src="bvc.js"></script>
+</body>
+</html>

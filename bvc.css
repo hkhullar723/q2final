@@ -1,0 +1,81 @@
+*{
+padding: 0%;
+margin: 0%;
+}
+
+html{
+    font-size: larger;
+}
+
+body{
+    display: flex;
+   
+    justify-content: center;
+   /* align-items: center; */
+    align-items: center;
+    background: linear-gradient(rgb(64, 41, 13), bisque);
+    min-height: 100dvh;
+}
+
+form{
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+    background-color: rgb(90, 73, 73);
+    backdrop-filter: blur(0.5rem);
+    backdrop-filter: blur(0.4rem) saturate(180%);
+    box-shadow: rgb(63, 62, 62) 0 2rem 4rem;
+    border-radius:1.5rem ;
+    min-height: 80dvh; 
+    /* align-items: center; */
+    width: 30%;
+    
+    color: bisque;
+background-repeat: none;
+}
+
+h1{
+    margin-bottom: 10vh;
+}
+
+ #submit{
+    /* padding: 2px;
+    width: 10px; */
+    margin-left: 45%; 
+}
+
+#switch{
+   
+    z-index: 1;
+    position: relative;
+    right: 5vw;
+  top: 10vw;
+    padding: 4px;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+input{
+    border-width: 3px;
+    padding: 2px;
+    background-color: rgb(239, 231, 221);
+font-family: 'Times New Roman', Times, serif;
+
+}
+
+#confirmation{
+    display: none;
+    background-color: rgb(38, 32, 32);
+    backdrop-filter: blur(0.3rem);
+    backdrop-filter: blur(0.4rem) saturate(200%);
+    box-shadow: rgb(15, 15, 15) 0 2rem 4rem;
+    border-radius:1.5rem ;
+    color: bisque;
+    height: 200px;
+    width:300px ;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 100px;
+    
+}
